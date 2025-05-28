@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/quick-memo-app/sw.js', { scope: '/quick-memo-app/' })})}
