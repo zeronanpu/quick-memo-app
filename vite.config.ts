@@ -21,8 +21,8 @@ export default defineConfig({
         theme_color: '#242424', // You can customize this
         background_color: '#ffffff', // You can customize this
         display: 'standalone',
-        scope: '/',
-        start_url: '/',
+        scope: '/quick-memo-app/',
+        start_url: '/quick-memo-app/',
         icons: [
           {
             src: 'pwa-192x192.png', // Create this in /public
